@@ -1,0 +1,9 @@
+﻿  Grammer.cpp
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(147,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(179,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(218,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(246,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(308,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(372,15): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(657,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Parser.vcxproj -> D:\project_c\Compiler\Parser\x64\Debug\Parser.exe

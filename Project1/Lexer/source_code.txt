@@ -1,0 +1,13 @@
+//int a = 3;
+//double b = 3.5e7;
+//double c = -3.5e-7;
+//double d = +3.5e+7;
+//cout << d << endl;
+complex c = 1 + 2i;
+double u = 15.58;
+cin >> u;
+u /= 3;
+int i = 18;
+if(i == 3){
+	i += 6;
+}

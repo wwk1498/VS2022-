@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="打酱油.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数位之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="现值计算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数列分段.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="田地丈量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="工资计算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="折点计算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="股票波动.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="买菜.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="小中大.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分蛋糕.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="跳一跳.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="未初始化警告.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="小明种苹果.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="小明种苹果续集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="报数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="期末预测之安全指数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组推导.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="游戏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="风险人群筛查.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="序列查询新解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="画图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="灰度直方图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Z字形扫描.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图像旋转.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="消除类游戏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="带配额的文件系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

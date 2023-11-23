@@ -1,0 +1,2 @@
+﻿  1.cpp
+C:\Users\wwk1498\软件数据存放\VS2022 数据\Project1\测试\1.cpp(67,16): error C2086: “std::vector<token,std::allocator<token>> Parser::tokens”: 重定义

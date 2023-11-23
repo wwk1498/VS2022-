@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="插入排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表%28不带头尾结点不带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表%28带头尾结点%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表%28带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单向环形链表%28带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="递归求斐波那契数列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="递归实现杨辉三角.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="动态数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="汉诺塔问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双向环形链表%28带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双向链表%28不带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双向链表%28带头尾哨兵%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表实现队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="环型数组实现队列%28带头尾指针%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="环形数组实现队列%28带头尾指针和大小%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="环形数组实现队列方法3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈%28链表实现）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈（数组实现）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双端队列--双向环形链表实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双端队列--环形数组实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="优先级队列--无序数组实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="优先级队列--有序数组实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="优先队列--堆实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="堆的实现--增--删--替换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树前中后遍历%28链表递归实现%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树前中后遍历%28非递归实现%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="avl树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="红黑树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="各种排序算法比较.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="选择排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="堆排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="希尔排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp" />
+    <ClCompile Include="归并加插入排序.cpp" />
+    <ClCompile Include="单边快排%28随机）.cpp" />
+    <ClCompile Include="双边快排%28随机）.cpp" />
+    <ClCompile Include="双边快排%28随机 重复）.cpp" />
+    <ClCompile Include="双边快排%28随机 重复 插入）.cpp" />
+    <ClCompile Include="计数排序.cpp" />
+    <ClCompile Include="计数排序改进.cpp" />
+    <ClCompile Include="桶排序.cpp" />
+    <ClCompile Include="桶排序改进.cpp" />
+    <ClCompile Include="基数排序.cpp" />
+    <ClCompile Include="图%28DFS和BFS%29.cpp" />
+    <ClCompile Include="图%28拓扑排序%29.cpp" />
+    <ClCompile Include="图%28拓扑排序--检测环%29.cpp" />
+    <ClCompile Include="图%28拓扑排序-DFS%29.cpp" />
+    <ClCompile Include="图Dijkstra算法.cpp" />
+    <ClCompile Include="图Dijkstra算法改进--记录路径.cpp" />
+    <ClCompile Include="图Dijkstra算法改进--优先队列.cpp" />
+    <ClCompile Include="图Bellman-Ford算法-正常情况.cpp" />
+    <ClCompile Include="图Bellman-Ford算法-负环处理.cpp" />
+    <ClCompile Include="图Floyd-Warshall算法.cpp" />
+    <ClCompile Include="图Floyd-Warshall算法改进-记录前一个路径.cpp" />
+    <ClCompile Include="图Floyd-Warshall算法改进-记录全部路径.cpp" />
+    <ClCompile Include="图Floyd-Warshall算法--出现负环.cpp" />
+    <ClCompile Include="最小生成树prim.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{7b1ca844-d749-4f75-8a46-eaed6338b7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{f9adc68b-389e-48b4-b317-c08a6d168130}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

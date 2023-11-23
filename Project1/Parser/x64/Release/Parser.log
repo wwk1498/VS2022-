@@ -1,0 +1,14 @@
+﻿  Grammer.cpp
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(148,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(180,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(219,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(248,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(310,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(374,15): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\project_c\Compiler\Parser\Parser\Grammer.cpp(689,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  0 of 1531 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Parser.vcxproj -> D:\project_c\Compiler\Parser\x64\Release\Parser.exe

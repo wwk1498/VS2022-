@@ -1,0 +1,4 @@
+﻿  词法分析器.cpp
+C:\Users\wwk1498\软件数据存放\VS2022 数据\Project1\手写编译器\词法分析器.cpp(84,15): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  LINK : 没有找到 C:\Users\wwk1498\软件数据存放\VS2022 数据\Project1\x64\Debug\手写编译器.exe 或上一个增量链接没有生成它；正在执行完全链接
+  手写编译器.vcxproj -> C:\Users\wwk1498\软件数据存放\VS2022 数据\Project1\x64\Debug\手写编译器.exe

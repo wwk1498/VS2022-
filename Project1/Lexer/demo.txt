@@ -1,0 +1,38 @@
+//1
+int a = 3;
+double b = 3.5e7;
+double c = -3.5e-7;
+double d = +3.5e+7;
+cout << d << endl;
+
+//2
+//int a = 3;
+//double b = 3.5e7;
+//double c = -3.5e-7;
+//double d = +3.5e+7;
+//cout << d << endl;
+complex c = 1 + 2i;
+double u = 15.58;
+cin >> u;
+u /= 3;
+int i = 18;
+if(i == 3){
+	i += 6;
+}
+
+//3
+int 1A = 3;
+complex c1 = 16.3 + 2.5i;
+float a = d + c;
+bool flag = 1;
+friend class u;
+int aa = -16;
+int bb = +17.38;
+complex c2 = +3.78i;
+double s = -6.5E+6;
+int __A = 6;
+
+//4
+int 11A = 6;
+double s = +6.5e9.5;
+if(a < b) a += b;

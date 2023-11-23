@@ -1,0 +1,501 @@
+分析栈
+步骤                状态栈                        符号栈                   输入串              Action         GoTo           
+
+1                   0                             #                        const               s8             
+
+2                   0,8                           #a                       int                 s10            
+
+3                   0,8,10                        #ag                      a                   r25            108            
+
+4                   0,8,108                       #aG                      a                   s109           
+
+5                   0,8,108,109                   #aGd                     =                   s101           
+
+6                   0,8,108,109,101               #aGde                    -5                  s105           
+
+7                   0,8,108,109,101,105           #aGdef                   ;                   r19            107            
+
+8                   0,8,107                       #aE                      ;                   s111           
+
+9                   0,8,107,111                   #aEb                     int                 r14            2              
+
+10                  0,2                           #C                       int                 s10            
+
+11                  0,2,10                        #Cg                      b                   r25            9              
+
+12                  0,2,9                         #CG                      b                   s98            
+
+13                  0,2,9,98                      #CGd                     =                   s101           
+
+14                  0,2,9,98,101                  #CGde                    +3                  s105           
+
+15                  0,2,9,98,101,105              #CGdef                   ;                   r19            7              
+
+16                  0,2,7                         #CE                      ;                   s117           
+
+17                  0,2,7,117                     #CEb                     if                  r15            2              
+
+18                  0,2,2                         #CC                      if                  s12            
+
+19                  0,2,2,12                      #CCj                     a                   s18            
+
+20                  0,2,2,12,18                   #CCjd                    ==                  r39            17             
+
+21                  0,2,2,12,17                   #CCjQ                    ==                  r34            16             
+
+22                  0,2,2,12,16                   #CCjN                    ==                  r30            49             
+
+23                  0,2,2,12,49                   #CCjM                    ==                  s22            
+
+24                  0,2,2,12,49,22                #CCjMm                   3                   r45            50             
+
+25                  0,2,2,12,49,50                #CCjMU                   3                   s54            
+
+26                  0,2,2,12,49,50,54             #CCjMUf                  b                   r38            52             
+
+27                  0,2,2,12,49,50,52             #CCjMUQ                  b                   r34            51             
+
+28                  0,2,2,12,49,50,51             #CCjMUN                  b                   r30            55             
+
+29                  0,2,2,12,49,50,55             #CCjMUM                  b                   r44            48             
+
+30                  0,2,2,12,48                   #CCjT                    b                   s67            
+
+31                  0,2,2,12,48,67                #CCjTd                   =                   s80            
+
+32                  0,2,2,12,48,67,80             #CCjTde                  +3                  s85            
+
+33                  0,2,2,12,48,67,80,85          #CCjTdef                 ;                   r38            83             
+
+34                  0,2,2,12,48,67,80,83          #CCjTdeQ                 ;                   r34            82             
+
+35                  0,2,2,12,48,67,80,82          #CCjTdeN                 ;                   r30            81             
+
+36                  0,2,2,12,48,67,80,81          #CCjTdeM                 ;                   s94            
+
+37                  0,2,2,12,48,67,80,81,94       #CCjTdeMb                #                   r29            64             
+
+38                  0,2,2,12,48,64                #CCjTI                   #                   r26            69             
+
+39                  0,2,2,12,48,69                #CCjTB                   #                   r43            5              
+
+40                  0,2,2,5                       #CCJ                     #                   r27            122            
+
+41                  0,2,2,122                     #CCB                     #                   r1             123            
+
+42                  0,2,2,123                     #CCA                     #                   r11            123            
+
+43                  0,2,123                       #CA                      #                   r11            14             
+
+44                  0,14                          #A                       #                   Acc            
+
+Yes
+分析栈
+步骤                状态栈                        符号栈                   输入串              Action         GoTo           
+
+1                   0                             #                        const               s8             
+
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8
+2                   0,8                           #a                       a                   
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8
+3                   0,8                           #a                       =                   
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8
+4                   0,8                           #a                       3                   
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8
+5                   0,8                           #a                       ;                   
+6                   0,8                           #a                       int                 s10            
+
+7                   0,8,10                        #ag                      b                   r25            108            
+
+8                   0,8,108                       #aG                      b                   s109           
+
+9                   0,8,108,109                   #aGd                     =                   s101           
+
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 2, wrong state is visited while compling.
+	  Reason : Maybe [ f ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109,101
+10                  0,8,108,109,101               #aGde                    ;                   
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ f ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109,101
+11                  0,8,108,109,101               #aGde                    if                  
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ f ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109,101
+12                  0,8,108,109,101               #aGde                    a                   
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ f ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109,101
+13                  0,8,108,109,101               #aGde                    ==                  
+14                  0,8,108,109,101               #aGde                    3                   s105           
+
+15                  0,8,108,109,101,105           #aGdef                   b                   r19            107            
+
+16                  0,8,107                       #aE                      b                   s112           
+
+17                  0,8,107,112                   #aEd                     =                   s113           
+
+18                  0,8,107,112,113               #aEde                    -5                  s114           
+
+19                  0,8,107,112,113,114           #aEdef                   ;                   r20            110            
+
+20                  0,8,107,110                   #aEL                     ;                   s115           
+
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 5, wrong state is visited while compling.
+	  Reason : Maybe [ # a d g j n d j n g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,107,110,115
+21                  0,8,107,110,115               #aELb                    else                
+22                  0,8,107,110,115               #aELb                    b                   r13            2              
+
+23                  0,2                           #C                       b                   s11            
+
+24                  0,2,11                        #Cd                      =                   s95            
+
+25                  0,2,11,95                     #Cde                     +6                  s85            
+
+
+[ERROR] ';' is needed to end this sentence.
+
+[ERROR] Time : 2023/4/2 19:0:18
+	  When scaning line 6, wrong state is visited while compling.
+	  Reason : Maybe [ b h i ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,11,95,85
+26                  0,2,11,95,85                  #Cdef                    #                   No
+分析栈
+步骤                状态栈                        符号栈                   输入串              Action         GoTo           
+
+1                   0                             #                        const               s8             
+
+2                   0,8                           #a                       int                 s10            
+
+3                   0,8,10                        #ag                      a                   r25            108            
+
+4                   0,8,108                       #aG                      a                   s109           
+
+5                   0,8,108,109                   #aGd                     =                   s101           
+
+6                   0,8,108,109,101               #aGde                    3                   s105           
+
+7                   0,8,108,109,101,105           #aGdef                   ;                   r19            107            
+
+8                   0,8,107                       #aE                      ;                   s111           
+
+9                   0,8,107,111                   #aEb                     int                 r14            2              
+
+10                  0,2                           #C                       int                 s10            
+
+11                  0,2,10                        #Cg                      b                   r25            9              
+
+12                  0,2,9                         #CG                      b                   s98            
+
+13                  0,2,9,98                      #CGd                     =                   s101           
+
+14                  0,2,9,98,101                  #CGde                    3                   s105           
+
+15                  0,2,9,98,101,105              #CGdef                   ;                   r19            7              
+
+16                  0,2,7                         #CE                      ;                   s117           
+
+17                  0,2,7,117                     #CEb                     if                  r15            2              
+
+18                  0,2,2                         #CC                      if                  s12            
+
+19                  0,2,2,12                      #CCj                     a                   s18            
+
+20                  0,2,2,12,18                   #CCjd                    ==                  r39            17             
+
+21                  0,2,2,12,17                   #CCjQ                    ==                  r34            16             
+
+22                  0,2,2,12,16                   #CCjN                    ==                  r30            49             
+
+23                  0,2,2,12,49                   #CCjM                    ==                  s22            
+
+24                  0,2,2,12,49,22                #CCjMm                   3                   r45            50             
+
+25                  0,2,2,12,49,50                #CCjMU                   3                   s54            
+
+26                  0,2,2,12,49,50,54             #CCjMUf                  b                   r38            52             
+
+27                  0,2,2,12,49,50,52             #CCjMUQ                  b                   r34            51             
+
+28                  0,2,2,12,49,50,51             #CCjMUN                  b                   r30            55             
+
+29                  0,2,2,12,49,50,55             #CCjMUM                  b                   r44            48             
+
+30                  0,2,2,12,48                   #CCjT                    b                   s67            
+
+31                  0,2,2,12,48,67                #CCjTd                   =                   s80            
+
+32                  0,2,2,12,48,67,80             #CCjTde                  -5                  s85            
+
+33                  0,2,2,12,48,67,80,85          #CCjTdef                 ;                   r38            83             
+
+34                  0,2,2,12,48,67,80,83          #CCjTdeQ                 ;                   r34            82             
+
+35                  0,2,2,12,48,67,80,82          #CCjTdeN                 ;                   r30            81             
+
+36                  0,2,2,12,48,67,80,81          #CCjTdeM                 ;                   s94            
+
+37                  0,2,2,12,48,67,80,81,94       #CCjTdeMb                else                r29            64             
+
+38                  0,2,2,12,48,64                #CCjTI                   else                r26            69             
+
+39                  0,2,2,12,48,69                #CCjTB                   else                s74            
+
+40                  0,2,2,12,48,69,74             #CCjTBl                  b                   s11            
+
+41                  0,2,2,12,48,69,74,11          #CCjTBld                 =                   s95            
+
+42                  0,2,2,12,48,69,74,11,95       #CCjTBlde                +6                  s85            
+
+43                  0,2,2,12,48,69,74,11,95,85    #CCjTBldef               ;                   r38            83             
+
+44                  0,2,2,12,48,69,74,11,95,83    #CCjTBldeQ               ;                   r34            82             
+
+45                  0,2,2,12,48,69,74,11,95,82    #CCjTBldeN               ;                   r30            96             
+
+46                  0,2,2,12,48,69,74,11,95,96    #CCjTBldeM               ;                   s97            
+
+47                  0,2,2,12,48,69,74,11,95,96,97 #CCjTBldeMb              #                   r29            4              
+
+48                  0,2,2,12,48,69,74,4           #CCjTBlI                 #                   r26            75             
+
+49                  0,2,2,12,48,69,74,75          #CCjTBlB                 #                   r42            5              
+
+50                  0,2,2,5                       #CCJ                     #                   r27            122            
+
+51                  0,2,2,122                     #CCB                     #                   r1             123            
+
+52                  0,2,2,123                     #CCA                     #                   r11            123            
+
+53                  0,2,123                       #CA                      #                   r11            14             
+
+54                  0,14                          #A                       #                   Acc            
+
+Yes
+分析栈
+步骤                状态栈                        符号栈                   输入串              Action         GoTo           
+
+1                   0                             #                        const               s8             
+
+2                   0,8                           #a                       int                 s10            
+
+3                   0,8,10                        #ag                      a                   r25            108            
+
+4                   0,8,108                       #aG                      a                   s109           
+
+
+[ERROR] 'equal sign' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:10:35
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ e ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109
+5                   0,8,108,109                   #aGd                     3                   
+
+[ERROR] 'equal sign' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:10:35
+	  When scaning line 1, wrong state is visited while compling.
+	  Reason : Maybe [ e ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109
+6                   0,8,108,109                   #aGd                     ;                   
+
+[ERROR] 'equal sign' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:10:35
+	  When scaning line 2, wrong state is visited while compling.
+	  Reason : Maybe [ e ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109
+7                   0,8,108,109                   #aGd                     int                 
+
+[ERROR] 'equal sign' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:10:35
+	  When scaning line 2, wrong state is visited while compling.
+	  Reason : Maybe [ e ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,108,109
+8                   0,8,108,109                   #aGd                     b                   
+9                   0,8,108,109                   #aGd                     =                   s101           
+
+10                  0,8,108,109,101               #aGde                    3                   s105           
+
+11                  0,8,108,109,101,105           #aGdef                   ;                   r19            107            
+
+12                  0,8,107                       #aE                      ;                   s111           
+
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] 'constant' or 'identifier' is needed to be in there.
+
+[ERROR] 'keyword' is needed to be in there.
+
+[ERROR] Time : 2023/4/2 19:10:35
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ # a d g j n d j n g ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,8,107,111
+13                  0,8,107,111                   #aEb                     else                
+[ERROR] 'else' has no previous 'if' to match.
+
+14                  0,8,107,111                   #aEb                     b                   r14            2              
+
+15                  0,2                           #C                       b                   s11            
+
+16                  0,2,11                        #Cd                      =                   s95            
+
+17                  0,2,11,95                     #Cde                     +6                  s85            
+
+18                  0,2,11,95,85                  #Cdef                    ;                   r38            83             
+
+19                  0,2,11,95,83                  #CdeQ                    ;                   r34            82             
+
+20                  0,2,11,95,82                  #CdeN                    ;                   r30            96             
+
+21                  0,2,11,95,96                  #CdeM                    ;                   s97            
+
+22                  0,2,11,95,96,97               #CdeMb                   #                   r29            4              
+
+23                  0,2,4                         #CI                      #                   r26            122            
+
+24                  0,2,122                       #CB                      #                   r1             123            
+
+25                  0,2,123                       #CA                      #                   r11            14             
+
+26                  0,14                          #A                       #                   
+NO
+分析栈
+步骤                状态栈                        符号栈                   输入串              Action         GoTo           
+
+1                   0                             #                        double              s10            
+
+2                   0,10                          #g                       b                   r25            9              
+
+3                   0,9                           #G                       b                   s98            
+
+4                   0,9,98                        #Gd                      =                   s101           
+
+5                   0,9,98,101                    #Gde                     3                   s105           
+
+6                   0,9,98,101,105                #Gdef                    ;                   r19            7              
+
+7                   0,7                           #E                       ;                   s117           
+
+8                   0,7,117                       #Eb                      while               r15            2              
+
+9                   0,2                           #C                       while               s13            
+
+10                  0,2,13                        #Cn                      a                   s18            
+
+11                  0,2,13,18                     #Cnd                     <=                  r39            17             
+
+12                  0,2,13,17                     #CnQ                     <=                  r34            16             
+
+13                  0,2,13,16                     #CnN                     <=                  r30            20             
+
+14                  0,2,13,20                     #CnM                     <=                  s22            
+
+15                  0,2,13,20,22                  #CnMm                    5                   r45            21             
+
+16                  0,2,13,20,21                  #CnMU                    5                   s26            
+
+
+[ERROR] Time : 2023/4/2 19:17:48
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ h i o ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,13,20,21,26
+17                  0,2,13,20,21,26               #CnMUf                   a                   
+[ERROR] 'while' has no 'do' to match.
+
+
+[ERROR] Time : 2023/4/2 19:17:48
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ h i o ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,13,20,21,26
+18                  0,2,13,20,21,26               #CnMUf                   =                   
+[ERROR] 'while' has no 'do' to match.
+
+
+[ERROR] Time : 2023/4/2 19:17:48
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ h i o ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,13,20,21,26
+19                  0,2,13,20,21,26               #CnMUf                   a                   
+[ERROR] 'while' has no 'do' to match.
+
+20                  0,2,13,20,21,26               #CnMUf                   *                   r38            24             
+
+21                  0,2,13,20,21,24               #CnMUQ                   *                   s30            
+
+22                  0,2,13,20,21,24,30            #CnMUQi                  +2                  r41            29             
+
+23                  0,2,13,20,21,24,29            #CnMUQS                  +2                  s26            
+
+
+[ERROR] Time : 2023/4/2 19:17:48
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ h i o ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,13,20,21,24,29,26
+24                  0,2,13,20,21,24,29,26         #CnMUQSf                 ;                   
+[ERROR] 'while' has no 'do' to match.
+
+
+[ERROR] Time : 2023/4/2 19:17:48
+	  When scaning line 3, wrong state is visited while compling.
+	  Reason : Maybe [ h i o ] is or are needed.
+	  Informations in State Stack(bottom to top) : 0,2,13,20,21,24,29,26
+25                  0,2,13,20,21,24,29,26         #CnMUQSf                 #                   
+[ERROR] 'while' has no 'do' to match.
+No
